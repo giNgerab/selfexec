@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter import ttk
 
 def zopa():
-        subprocess.run(["chmod +x piska", "-l"])
+    subprocess.run(["chmod +x piska", "-l"])
     i=10
     while (i>1):
          subprocess.run(["./piska", "-l"])
